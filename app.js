@@ -138,7 +138,7 @@ function terminate() {
 
     window.examStarted = false;
 
-    localStorage.setItem("examTerminated3", "true");
+    localStorage.setItem("examTerminated4", "true");
 
     examFrameWrapper.hidden = true;
     examHeader.hidden = true;
@@ -280,6 +280,6 @@ continueStartBtn.addEventListener("click", async () => {
     startTimer(totalTimeMin);
 
 });
-if (localStorage.getItem("examTerminated3") === "true") {
+if (localStorage.getItem("examTerminated4") === "true") {
     terminate();
 }//prob wont work but why not try
